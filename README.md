@@ -14,15 +14,15 @@ A Hyprland DankMaterialShell plugin that allows you to manage your display outpu
 - **Registers 3 new ipc calls to dms**:
 
 ```bash
-dms ipc call displayOutput toggle
+hype ipc call displayOutput toggle
 ```
 
 ```bash
-dms ipc call displayOutput open
+hype ipc call displayOutput open
 ```
 
 ```bash
-dms ipc call displayOutput close
+hype ipc call displayOutput close
 ```
 
 ## Installation
@@ -31,12 +31,12 @@ dms ipc call displayOutput close
 
 You can easily install this plugin directly using the DMS plugin manager:
 ```bash
-dms plugins install displayOutput
+hype plugins install displayOutput
 ```
 
 Then, enable the plugin in the DMS plugins tab, then run the following command to display the menu:
 ```bash
-dms ipc call displayOutput toggle
+hype ipc call displayOutput toggle
 ```
 
 ### Manual Installation via Git
@@ -59,7 +59,7 @@ rm -rf dms-displayoutput
 
 Enable the plugin in the DMS plugins tab, then run the following command to display the menu:
 ```bash
-dms ipc call displayOutput toggle
+hype ipc call displayOutput toggle
 ```
 
 ## Configuration
